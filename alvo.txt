@@ -1,0 +1,8 @@
+# Codigo gerado pelo compilador MiniPascal
+class ProgTESTE:
+    def __init__(self):
+        pass
+if __name__ == '__main__':
+    _prog = ProgTESTE()
+    _prog._declaracoes()
+    _prog._corpo()

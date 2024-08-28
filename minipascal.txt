@@ -1,0 +1,34 @@
+program TESTE();
+var
+  a, b, soma, divisao: real;
+var
+  arr: array[1..10] of real;  // Declara um array de reais com 10 elementos }
+
+
+procedure folder(a : real ; b : real);
+var
+  a, b, soma, divisao: real;
+begin
+   writeln("a = ", a);
+   writeln("b = ", b)
+end;
+
+begin
+  writeln("entre com a: ");
+  folder(54,65);
+  readln(a);
+  writeln("entre com b: ");
+  readln(b);
+  soma := a + b * (2 + 3 / 5.4);
+      //aaaaaaaaaaaaaaaa
+  if soma >= 0 then
+    a := 0
+  else
+  begin
+    b := 3;
+    a := b + 5
+  end;
+
+  divisao := a / b;
+  writeln("soma = ", soma)
+end.
